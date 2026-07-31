@@ -1,8 +1,16 @@
 aid: oatfi
 name: Oatfi
-description: 'Oatfi is a company surfaced as a portfolio company of qed-investors and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  OatFi is a fintech infrastructure company that describes itself as "The Modern Credit Network for
+  B2B Payments." It provides embedded credit, lending, and working-capital products that platforms
+  and marketplaces can offer inside their own payment workflows. Its product surface spans Accounts
+  Payable (flexible payment terms for buyers), Accounts Receivable (guaranteed or early supplier
+  payouts), and Commercial Charge Cards (scaled credit and capital for commercial card programs),
+  backed by modular components for KYB and fraud verification, underwriting, origination, loan
+  management, capital-markets access, and collections. OatFi exposes these capabilities through APIs
+  for approvals, settlements, and reconciliation. The developer documentation (docs.oatfi.com, a
+  ReadMe hub) and dashboard are access-gated, so no public OpenAPI or API reference is available for
+  cataloging at this time. Backed by QED Investors.
 url: https://raw.githubusercontent.com/api-evangelist/oatfi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,32 @@ x-backed-by:
 - qed-investors
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://cdn.prod.website-files.com/678a04495197cff2a81e6f03/67b673d79dc6335d02e5d2be_OpenGraph.png
 tags:
 - Company
 - Fintech
+- Embedded Finance
+- B2B Payments
+- Embedded Lending
+- Working Capital
+- Accounts Payable
+- Accounts Receivable
+- Commercial Cards
+- Credit
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,26 @@ maintainers:
 common:
 - type: Website
   url: https://oatfi.com/
+- type: Documentation
+  url: https://docs.oatfi.com/
+- type: Login
+  url: https://dashboard.oatfi.com/
+- type: Support
+  url: https://oatfi.com/contact
+- type: Blog
+  url: https://oatfi.com/newsroom
+- type: About
+  url: https://oatfi.com/about-us
+- type: TermsOfService
+  url: https://oatfi.com/platform-terms-of-service
+- type: PrivacyPolicy
+  url: https://oatfi.com/privacy
+- type: TrustCenter
+  url: https://trust.oatfi.com/
+- type: DomainSecurity
+  url: security/oatfi-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
